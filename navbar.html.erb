@@ -1,0 +1,11 @@
+<div class="navbar-item has-dropdown" data-behavior="notifications">
+
+	<%= link_to "javascript:void(0);", class: 'navbar-link' do %>
+	  <!-- is-arrowless for navbar-link to hide arrow -->
+		<i class="fas fa-bell has-text-grey" style="margin-right:-4px;"></i>
+		<span data-behavior="unread-notifications-size"></span>
+	<% end %>
+
+	<div class="navbar-dropdown is-right" data-behavior="notification-items" style="padding:40px;"></div>
+
+</div>
